@@ -1,11 +1,11 @@
 package test;
 
-import main.Question2;
+import main.ReverseString;
 
-public class Question2Test {
+public class ReverseStringTest {
 
     public static void main(String arg[]){
-        Question2 obj = new Question2();
+        ReverseString obj = new ReverseString();
 
         char[] given = new char[]{'a','b','c','d','e','0'};
         System.out.println(obj.solutionOne(given));

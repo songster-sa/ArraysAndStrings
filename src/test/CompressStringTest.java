@@ -1,12 +1,12 @@
 package test;
 
-import main.Question5;
+import main.CompressString;
 
-public class Question5Test {
+public class CompressStringTest {
 
     public static void main (String arg[]){
 
-        Question5 obj = new Question5();
+        CompressString obj = new CompressString();
 
         String given="aabccccaaa";
         System.out.println(obj.solutionOne(given));

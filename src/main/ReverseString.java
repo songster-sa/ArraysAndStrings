@@ -8,7 +8,7 @@ package main;
  * a0 = a0
  * 0=0
  */
-public class Question2 {
+public class ReverseString {
 
     /**
      * not in place

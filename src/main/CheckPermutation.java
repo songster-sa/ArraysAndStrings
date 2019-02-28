@@ -9,7 +9,7 @@ package main;
  * <p>
  * do spaces count ?  does case of the letter counts?
  */
-public class Question3 {
+public class CheckPermutation {
 
     // 1. length has to be same
     // 2. characters have to be same - count

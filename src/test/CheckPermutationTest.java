@@ -1,11 +1,11 @@
 package test;
 
-import main.Question3;
+import main.CheckPermutation;
 
-public class Question3Test {
+public class CheckPermutationTest {
 
     public static void main(String arg[]) {
-        Question3 obj = new Question3();
+        CheckPermutation obj = new CheckPermutation();
 
         String given1 = "abc";
         String given2 = "bac";

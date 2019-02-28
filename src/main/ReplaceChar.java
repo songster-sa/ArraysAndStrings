@@ -6,7 +6,7 @@ package main;
  * Input :  "Mr John Smith    "
  * Output : "Mr%20John%20Smith"
  */
-public class Question4 {
+public class ReplaceChar {
 
     public char[] solutionOne(char[] given) {
 

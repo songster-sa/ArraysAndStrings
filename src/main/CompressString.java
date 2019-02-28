@@ -7,7 +7,7 @@ package main;
  * aa = a2 = aa
  * a = a1 = a
  */
-public class Question5 {
+public class CompressString {
 
     // solution 1 = actually count -> from back or front
     // solution 2 = use the indices to compute the count

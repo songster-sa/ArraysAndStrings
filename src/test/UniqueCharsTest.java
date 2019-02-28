@@ -1,11 +1,11 @@
 package test;
 
-import main.Question1;
+import main.UniqueChars;
 
-public class Question1Test {
+public class UniqueCharsTest {
 
     public static void main (String arg[]){
-        Question1 object = new Question1();
+        UniqueChars object = new UniqueChars();
 
         String given = "aBANhrLObZ1XJi";
 

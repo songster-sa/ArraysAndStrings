@@ -1,11 +1,11 @@
 package test;
 
-import main.Question4;
+import main.ReplaceChar;
 
-public class Question4Test {
+public class ReplaceCharTest {
 
     public static void main(String arg[]){
-        Question4 obj = new Question4();
+        ReplaceChar obj = new ReplaceChar();
 
         String given = "Mr John  ";
         System.out.println(obj.solutionOne(given.toCharArray()));

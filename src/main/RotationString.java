@@ -7,7 +7,7 @@ package main;
  * s2 = "erbottlewat"
  * true
  */
-public class Question8 {
+public class RotationString {
 
     public boolean solutionOne(String s1, String s2) {
         String s3 = s1 + s1;

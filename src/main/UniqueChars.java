@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * only alphabets ? or any character ? capital and small ?
  * input is String or character array ?
  */
-public class Question1 {
+public class UniqueChars {
 
     /**
      * worst case - all unique - n x n

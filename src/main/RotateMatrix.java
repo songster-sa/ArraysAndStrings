@@ -9,7 +9,7 @@ package main;
  *
  * clockwise or counter ?
  */
-public class Question6 {
+public class RotateMatrix {
 
 
 
