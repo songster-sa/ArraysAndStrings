@@ -12,4 +12,6 @@ package main.onlineBank;
  * Catch : optimize for time
  */
 public class MagicOf3 {
+
+    //TODO
 }
