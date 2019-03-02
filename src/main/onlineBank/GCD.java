@@ -1,8 +1,13 @@
 package main.onlineBank;
 
+/**
+ * Find greatest common devisor of n numbers
+ * <p>
+ * AMZ S.SDET demo Question
+ */
 public class GCD {
 
-    public int generalizedGCD(int num, int[] arr) {
+    public int generalizedGCD(int[] arr) {
 
         int result = arr[0];
 

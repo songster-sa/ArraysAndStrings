@@ -3,6 +3,15 @@ package main.onlineBank;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * houses in a row represented by cells
+ * each house can be active =1 or inactive=0
+ * a house becomes inactive the next day if both neighbours are either active or inactive the previous day
+ * as first and last cell will have only 1 neighbour, you can consider the other neighbour to be inactive
+ * Find the state of the houses after n number of days
+ * <p>
+ * AMZ S.SDET demo Question
+ */
 
 public class ActiveHouses {
 
