@@ -1,6 +1,6 @@
-package test.onlineBank;
+package test.exam;
 
-import main.onlineBank.TruckDeliveries;
+import main.exam.TruckDeliveries;
 
 import java.util.ArrayList;
 import java.util.List;

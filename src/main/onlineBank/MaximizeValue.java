@@ -6,6 +6,11 @@ package main.onlineBank;
  * Example:
  * Input : 1,2,4,3 and swaps allowed 2
  * Output : 4,1,2,3 (value 4123)
+ * <p>
+ * what if double digits? TODO
+ * 9,93,24,6 => 993624
+ * <p>
+ * 10,2,3,4 = 43210 => 4 should still come first
  */
 public class MaximizeValue {
 

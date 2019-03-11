@@ -9,8 +9,8 @@ package main;
  */
 public class CompressString {
 
-    // solution 1 = actually count -> from back or front
-    // solution 2 = use the indices to compute the count
+    // solutionInt 1 = actually count -> from back or front
+    // solutionInt 2 = use the indices to compute the count
     // for single letter you will have to create space to store count
     // can be in space or use a separate string to return
     // if doing in place, the need to be careful as count can be double digit also

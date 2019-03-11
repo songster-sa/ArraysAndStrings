@@ -1,6 +1,6 @@
-package test.onlineBank;
+package test.exam;
 
-import main.onlineBank.AppUsageCombination;
+import main.exam.AppUsageCombination;
 
 import java.util.ArrayList;
 import java.util.List;

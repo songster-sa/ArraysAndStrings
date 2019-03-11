@@ -1,4 +1,4 @@
-package main.onlineBank;
+package main.exam;
 
 import java.util.ArrayList;
 import java.util.List;
