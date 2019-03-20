@@ -37,6 +37,12 @@ public class TurtleStack {
 
         // better to keep 2 sorted lists - one by ascending order of weight and one by descending order of strength
 
+        // get the max strength
+        int i = getIndexOfMaxStrength(turtles);
+        toReturn.add(turtles.get(i));
+        int maxStrength = turtles.get(i).get(1);
+        turtles.remove(i);
+
         List<List<Integer>> turtlesByW = new ArrayList<>();
         turtlesByW.addAll(turtles); // ascending order
         Collections.sort(turtlesByW, new Comparator<List<Integer>>() {
@@ -46,13 +52,7 @@ public class TurtleStack {
             }
         });
 
-        System.out.println("turtles by ascending order of weight : " + turtlesByW);
-
-        // get the max strength
-        int i = getIndexOfMaxStrength(turtles);
-        toReturn.add(turtles.get(i));
-        int maxStrength = turtles.get(i).get(1);
-        turtles.remove(i);
+        // System.out.println("turtles by ascending order of weight : " + turtlesByW);
 
         List<List<Integer>> stackTurtles = new ArrayList<>();
         for (List<Integer> item : turtlesByW) {
@@ -65,7 +65,7 @@ public class TurtleStack {
             }
         }
 
-        System.out.println("all possible turtles in stack : " + stackTurtles);
+        // System.out.println("all possible turtles in stack : " + stackTurtles);
 
         System.out.println("total number of possible turtles in stack = " + (stackTurtles.size() + 1));
 
