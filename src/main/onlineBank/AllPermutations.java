@@ -16,7 +16,6 @@ import java.util.Set;
  * P(n,r) = n! / (n-r)! = (3*2) / (3-2)! = 6/1 = 6
  */
 public class AllPermutations {
-    //TODO
 
     // some quick checks are there like length and chars are present or not
     // but after that ... do we have to store all permutations and then check if they exist ? thats layman and too inefficient
