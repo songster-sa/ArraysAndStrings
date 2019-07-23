@@ -25,7 +25,7 @@ public class CharWindow {
             return;
         }
 
-        Map toreturn = new TreeMap<String, Integer>();
+        Map toreturn = new TreeMap<Integer, String>();
 
         Set temp = new HashSet();
         temp.addAll(chars);
